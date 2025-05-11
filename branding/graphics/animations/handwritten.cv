@@ -1,0 +1,5497 @@
+{
+ "activeComp": "compNode#1",
+ "assets": [
+  {
+   "data": { "filePath": "C:/Users/chase/Desktop/_PROJECTS/Cutthroat Systems/cutthroatsystems.com/assets/graphics/animations/handwritten.svg" },
+   "nodeId": "asset#2",
+   "type": "file"
+  }
+ ],
+ "connections": [
+  { "from": "visibilityCurve#2.out", "to": "group#2.on" },
+  { "from": "visibilityCurve#1.out", "to": "group#1.on" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#11.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#11.activeAnimationLayer" },
+  { "from": "keyframe#21.id", "to": "visibilityCurve#11.keyframes.0" },
+  { "from": "keyframe#22.id", "to": "visibilityCurve#11.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#12.time" },
+  { "from": "keyframe#23.id", "to": "visibilityCurve#12.keyframes.0" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#12.activeAnimationLayer" },
+  { "from": "keyframe#24.id", "to": "visibilityCurve#12.keyframes.1" },
+  { "from": "visibilityCurve#3.out", "to": "editableShape#1.on" },
+  { "from": "colorMaterial#4.id", "to": "editableShape#1.material" },
+  { "from": "strokeMaterial#4.id", "to": "editableShape#1.stroke" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#13.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#13.activeAnimationLayer" },
+  { "from": "keyframe#25.id", "to": "visibilityCurve#13.keyframes.0" },
+  { "from": "keyframe#26.id", "to": "visibilityCurve#13.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#8.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#8.activeAnimationLayer" },
+  { "from": "keyframe#15.id", "to": "visibilityCurve#8.keyframes.0" },
+  { "from": "keyframe#16.id", "to": "visibilityCurve#8.keyframes.1" },
+  { "from": "keyframe#7.id", "to": "visibilityCurve#4.keyframes.0" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#4.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#4.activeAnimationLayer" },
+  { "from": "keyframe#8.id", "to": "visibilityCurve#4.keyframes.1" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#5.activeAnimationLayer" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#5.time" },
+  { "from": "keyframe#9.id", "to": "visibilityCurve#5.keyframes.0" },
+  { "from": "keyframe#10.id", "to": "visibilityCurve#5.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#6.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#6.activeAnimationLayer" },
+  { "from": "keyframe#12.id", "to": "visibilityCurve#6.keyframes.1" },
+  { "from": "keyframe#11.id", "to": "visibilityCurve#6.keyframes.0" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#7.time" },
+  { "from": "keyframe#14.id", "to": "visibilityCurve#7.keyframes.1" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#7.activeAnimationLayer" },
+  { "from": "keyframe#13.id", "to": "visibilityCurve#7.keyframes.0" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#3.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#3.activeAnimationLayer" },
+  { "from": "keyframe#5.id", "to": "visibilityCurve#3.keyframes.0" },
+  { "from": "keyframe#6.id", "to": "visibilityCurve#3.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#2.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#2.activeAnimationLayer" },
+  { "from": "keyframe#3.id", "to": "visibilityCurve#2.keyframes.0" },
+  { "from": "keyframe#4.id", "to": "visibilityCurve#2.keyframes.1" },
+  { "from": "keyframe#2.id", "to": "visibilityCurve#1.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#1.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#1.activeAnimationLayer" },
+  { "from": "keyframe#1.id", "to": "visibilityCurve#1.keyframes.0" },
+  { "from": "visibilityCurve#10.out", "to": "editableShape#8.on" },
+  { "from": "strokeMaterial#18.id", "to": "editableShape#8.stroke" },
+  { "from": "colorMaterial#18.id", "to": "editableShape#8.material" },
+  { "from": "visibilityCurve#5.out", "to": "editableShape#3.on" },
+  { "from": "colorMaterial#8.id", "to": "editableShape#3.material" },
+  { "from": "strokeMaterial#8.id", "to": "editableShape#3.stroke" },
+  { "from": "visibilityCurve#7.out", "to": "editableShape#5.on" },
+  { "from": "colorMaterial#12.id", "to": "editableShape#5.material" },
+  { "from": "strokeMaterial#12.id", "to": "editableShape#5.stroke" },
+  { "from": "keyframe#17.id", "to": "visibilityCurve#9.keyframes.0" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#9.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#9.activeAnimationLayer" },
+  { "from": "keyframe#18.id", "to": "visibilityCurve#9.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#10.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#10.activeAnimationLayer" },
+  { "from": "keyframe#19.id", "to": "visibilityCurve#10.keyframes.0" },
+  { "from": "keyframe#20.id", "to": "visibilityCurve#10.keyframes.1" },
+  { "from": "keyframe#40.id", "to": "visibilityCurve#20.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#20.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#20.activeAnimationLayer" },
+  { "from": "keyframe#39.id", "to": "visibilityCurve#20.keyframes.0" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#18.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#18.activeAnimationLayer" },
+  { "from": "keyframe#35.id", "to": "visibilityCurve#18.keyframes.0" },
+  { "from": "keyframe#36.id", "to": "visibilityCurve#18.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#19.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#19.activeAnimationLayer" },
+  { "from": "keyframe#38.id", "to": "visibilityCurve#19.keyframes.1" },
+  { "from": "keyframe#37.id", "to": "visibilityCurve#19.keyframes.0" },
+  { "from": "visibilityCurve#6.out", "to": "editableShape#4.on" },
+  { "from": "colorMaterial#10.id", "to": "editableShape#4.material" },
+  { "from": "strokeMaterial#10.id", "to": "editableShape#4.stroke" },
+  { "from": "visibilityCurve#8.out", "to": "editableShape#6.on" },
+  { "from": "colorMaterial#14.id", "to": "editableShape#6.material" },
+  { "from": "strokeMaterial#14.id", "to": "editableShape#6.stroke" },
+  { "from": "visibilityCurve#4.out", "to": "editableShape#2.on" },
+  { "from": "colorMaterial#6.id", "to": "editableShape#2.material" },
+  { "from": "strokeMaterial#6.id", "to": "editableShape#2.stroke" },
+  { "from": "visibilityCurve#9.out", "to": "editableShape#7.on" },
+  { "from": "colorMaterial#16.id", "to": "editableShape#7.material" },
+  { "from": "strokeMaterial#16.id", "to": "editableShape#7.stroke" },
+  { "from": "keyframe#27.id", "to": "visibilityCurve#14.keyframes.0" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#14.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#14.activeAnimationLayer" },
+  { "from": "keyframe#28.id", "to": "visibilityCurve#14.keyframes.1" },
+  { "from": "visibilityCurve#13.out", "to": "editableShape#11.on" },
+  { "from": "colorMaterial#24.id", "to": "editableShape#11.material" },
+  { "from": "strokeMaterial#24.id", "to": "editableShape#11.stroke" },
+  { "from": "colorMaterial#20.id", "to": "editableShape#9.material" },
+  { "from": "visibilityCurve#11.out", "to": "editableShape#9.on" },
+  { "from": "strokeMaterial#20.id", "to": "editableShape#9.stroke" },
+  { "from": "colorMaterial#22.id", "to": "editableShape#10.material" },
+  { "from": "visibilityCurve#12.out", "to": "editableShape#10.on" },
+  { "from": "strokeMaterial#22.id", "to": "editableShape#10.stroke" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#16.time" },
+  { "from": "keyframe#32.id", "to": "visibilityCurve#16.keyframes.1" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#16.activeAnimationLayer" },
+  { "from": "keyframe#31.id", "to": "visibilityCurve#16.keyframes.0" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#17.time" },
+  { "from": "keyframe#34.id", "to": "visibilityCurve#17.keyframes.1" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#17.activeAnimationLayer" },
+  { "from": "keyframe#33.id", "to": "visibilityCurve#17.keyframes.0" },
+  { "from": "keyframe#30.id", "to": "visibilityCurve#15.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#15.time" },
+  { "from": "keyframe#29.id", "to": "visibilityCurve#15.keyframes.0" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#15.activeAnimationLayer" },
+  { "from": "visibilityCurve#14.out", "to": "editableShape#12.on" },
+  { "from": "colorMaterial#26.id", "to": "editableShape#12.material" },
+  { "from": "strokeMaterial#26.id", "to": "editableShape#12.stroke" },
+  { "from": "strokeMaterial#28.id", "to": "editableShape#13.stroke" },
+  { "from": "visibilityCurve#15.out", "to": "editableShape#13.on" },
+  { "from": "colorMaterial#28.id", "to": "editableShape#13.material" },
+  { "from": "strokeMaterial#30.id", "to": "editableShape#14.stroke" },
+  { "from": "visibilityCurve#16.out", "to": "editableShape#14.on" },
+  { "from": "colorMaterial#30.id", "to": "editableShape#14.material" },
+  { "from": "visibilityCurve#17.out", "to": "editableShape#15.on" },
+  { "from": "colorMaterial#32.id", "to": "editableShape#15.material" },
+  { "from": "strokeMaterial#32.id", "to": "editableShape#15.stroke" },
+  { "from": "visibilityCurve#18.out", "to": "editableShape#16.on" },
+  { "from": "colorMaterial#34.id", "to": "editableShape#16.material" },
+  { "from": "strokeMaterial#34.id", "to": "editableShape#16.stroke" },
+  { "from": "visibilityCurve#19.out", "to": "editableShape#17.on" },
+  { "from": "strokeMaterial#36.id", "to": "editableShape#17.stroke" },
+  { "from": "colorMaterial#36.id", "to": "editableShape#17.material" },
+  { "from": "visibilityCurve#20.out", "to": "editableShape#18.on" },
+  { "from": "strokeMaterial#38.id", "to": "editableShape#18.stroke" },
+  { "from": "colorMaterial#38.id", "to": "editableShape#18.material" },
+  { "from": "visibilityCurve#21.out", "to": "editableShape#19.on" },
+  { "from": "colorMaterial#40.id", "to": "editableShape#19.material" },
+  { "from": "strokeMaterial#40.id", "to": "editableShape#19.stroke" },
+  { "from": "visibilityCurve#22.out", "to": "editableShape#20.on" },
+  { "from": "colorMaterial#42.id", "to": "editableShape#20.material" },
+  { "from": "strokeMaterial#42.id", "to": "editableShape#20.stroke" },
+  { "from": "colorMaterial#44.id", "to": "editableShape#21.material" },
+  { "from": "visibilityCurve#23.out", "to": "editableShape#21.on" },
+  { "from": "strokeMaterial#44.id", "to": "editableShape#21.stroke" },
+  { "from": "visibilityCurve#24.out", "to": "editableShape#22.on" },
+  { "from": "colorMaterial#46.id", "to": "editableShape#22.material" },
+  { "from": "strokeMaterial#46.id", "to": "editableShape#22.stroke" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#26.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#26.activeAnimationLayer" },
+  { "from": "keyframe#51.id", "to": "visibilityCurve#26.keyframes.0" },
+  { "from": "keyframe#52.id", "to": "visibilityCurve#26.keyframes.1" },
+  { "from": "keyframe#47.id", "to": "visibilityCurve#24.keyframes.0" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#24.time" },
+  { "from": "keyframe#48.id", "to": "visibilityCurve#24.keyframes.1" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#24.activeAnimationLayer" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#21.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#21.activeAnimationLayer" },
+  { "from": "keyframe#41.id", "to": "visibilityCurve#21.keyframes.0" },
+  { "from": "keyframe#42.id", "to": "visibilityCurve#21.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#23.time" },
+  { "from": "keyframe#45.id", "to": "visibilityCurve#23.keyframes.0" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#23.activeAnimationLayer" },
+  { "from": "keyframe#46.id", "to": "visibilityCurve#23.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#22.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#22.activeAnimationLayer" },
+  { "from": "keyframe#43.id", "to": "visibilityCurve#22.keyframes.0" },
+  { "from": "keyframe#44.id", "to": "visibilityCurve#22.keyframes.1" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#25.time" },
+  { "from": "keyframe#49.id", "to": "visibilityCurve#25.keyframes.0" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#25.activeAnimationLayer" },
+  { "from": "keyframe#50.id", "to": "visibilityCurve#25.keyframes.1" },
+  { "from": "visibilityCurve#25.out", "to": "editableShape#23.on" },
+  { "from": "colorMaterial#48.id", "to": "editableShape#23.material" },
+  { "from": "strokeMaterial#48.id", "to": "editableShape#23.stroke" },
+  { "from": "visibilityCurve#26.out", "to": "editableShape#24.on" },
+  { "from": "colorMaterial#50.id", "to": "editableShape#24.material" },
+  { "from": "strokeMaterial#50.id", "to": "editableShape#24.stroke" },
+  { "from": "visibilityCurve#27.out", "to": "editableShape#25.on" },
+  { "from": "colorMaterial#52.id", "to": "editableShape#25.material" },
+  { "from": "strokeMaterial#52.id", "to": "editableShape#25.stroke" },
+  { "from": "keyframe#53.id", "to": "visibilityCurve#27.keyframes.0" },
+  { "from": "compNode#1.time", "to": "visibilityCurve#27.time" },
+  { "from": "compNode#1.outActiveAnimationLayer", "to": "visibilityCurve#27.activeAnimationLayer" },
+  { "from": "keyframe#54.id", "to": "visibilityCurve#27.keyframes.1" }
+ ],
+ "labelColors": "Pastel",
+ "nodeMeta": [
+  {
+   "children": [ "colorArray#1" ],
+   "nodeId": "paletteContainer#1"
+  },
+  {
+   "children": [ "asset#2", "compNode#1" ],
+   "nodeId": "asset#1"
+  },
+  {
+   "children": [ "editableShape#25", "editableShape#24", "editableShape#23", "editableShape#22", "editableShape#21", "editableShape#20", "editableShape#19", "editableShape#18", "editableShape#17", "editableShape#16", "editableShape#15", "editableShape#14", "editableShape#13", "editableShape#12", "editableShape#11", "editableShape#10", "editableShape#9", "editableShape#8", "editableShape#7", "editableShape#6", "editableShape#5", "editableShape#4", "editableShape#3", "editableShape#2", "editableShape#1", "hiddenFolder#2" ],
+   "nodeId": "group#2"
+  },
+  {
+   "children": [ "group#2", "hiddenFolder#1" ],
+   "nodeId": "group#1"
+  },
+  {
+   "children": [ "keyframe#22", "keyframe#21" ],
+   "nodeId": "visibilityCurve#11"
+  },
+  {
+   "children": [ "keyframe#24", "keyframe#23" ],
+   "nodeId": "visibilityCurve#12"
+  },
+  {
+   "children": [ "hiddenFolder#3" ],
+   "nodeId": "editableShape#1"
+  },
+  {
+   "children": [ "group#1" ],
+   "nodeId": "compNode#1"
+  },
+  {
+   "children": [ "keyframe#26", "keyframe#25" ],
+   "nodeId": "visibilityCurve#13"
+  },
+  {
+   "children": [ "keyframe#16", "keyframe#15" ],
+   "nodeId": "visibilityCurve#8"
+  },
+  {
+   "children": [ "keyframe#8", "keyframe#7" ],
+   "nodeId": "visibilityCurve#4"
+  },
+  {
+   "children": [ "keyframe#10", "keyframe#9" ],
+   "nodeId": "visibilityCurve#5"
+  },
+  {
+   "children": [ "keyframe#12", "keyframe#11" ],
+   "nodeId": "visibilityCurve#6"
+  },
+  {
+   "children": [ "keyframe#14", "keyframe#13" ],
+   "nodeId": "visibilityCurve#7"
+  },
+  {
+   "children": [ "motionBlurFilter#1", "strokeMaterial#1", "colorMaterial#1", "visibilityCurve#1" ],
+   "nodeId": "hiddenFolder#1"
+  },
+  {
+   "children": [ "keyframe#6", "keyframe#5" ],
+   "nodeId": "visibilityCurve#3"
+  },
+  {
+   "children": [ "keyframe#4", "keyframe#3" ],
+   "nodeId": "visibilityCurve#2"
+  },
+  {
+   "children": [ "keyframe#2", "keyframe#1" ],
+   "nodeId": "visibilityCurve#1"
+  },
+  {
+   "children": [ "strokeMaterial#4", "colorMaterial#4", "motionBlurFilter#3", "strokeMaterial#3", "colorMaterial#3", "visibilityCurve#3" ],
+   "nodeId": "hiddenFolder#3"
+  },
+  {
+   "children": [ "hiddenFolder#10" ],
+   "nodeId": "editableShape#8"
+  },
+  {
+   "children": [ "strokeMaterial#18", "colorMaterial#18", "motionBlurFilter#10", "strokeMaterial#17", "colorMaterial#17", "visibilityCurve#10" ],
+   "nodeId": "hiddenFolder#10"
+  },
+  {
+   "children": [ "motionBlurFilter#2", "strokeMaterial#2", "colorMaterial#2", "visibilityCurve#2" ],
+   "nodeId": "hiddenFolder#2"
+  },
+  {
+   "children": [ "strokeMaterial#6", "colorMaterial#6", "motionBlurFilter#4", "strokeMaterial#5", "colorMaterial#5", "visibilityCurve#4" ],
+   "nodeId": "hiddenFolder#4"
+  },
+  {
+   "children": [ "hiddenFolder#5" ],
+   "nodeId": "editableShape#3"
+  },
+  {
+   "children": [ "hiddenFolder#7" ],
+   "nodeId": "editableShape#5"
+  },
+  {
+   "children": [ "strokeMaterial#10", "colorMaterial#10", "motionBlurFilter#6", "strokeMaterial#9", "colorMaterial#9", "visibilityCurve#6" ],
+   "nodeId": "hiddenFolder#6"
+  },
+  {
+   "children": [ "strokeMaterial#16", "colorMaterial#16", "motionBlurFilter#9", "strokeMaterial#15", "colorMaterial#15", "visibilityCurve#9" ],
+   "nodeId": "hiddenFolder#9"
+  },
+  {
+   "children": [ "keyframe#18", "keyframe#17" ],
+   "nodeId": "visibilityCurve#9"
+  },
+  {
+   "children": [ "keyframe#20", "keyframe#19" ],
+   "nodeId": "visibilityCurve#10"
+  },
+  {
+   "children": [ "keyframe#40", "keyframe#39" ],
+   "nodeId": "visibilityCurve#20"
+  },
+  {
+   "children": [ "keyframe#36", "keyframe#35" ],
+   "nodeId": "visibilityCurve#18"
+  },
+  {
+   "children": [ "keyframe#38", "keyframe#37" ],
+   "nodeId": "visibilityCurve#19"
+  },
+  {
+   "children": [ "hiddenFolder#6" ],
+   "nodeId": "editableShape#4"
+  },
+  {
+   "children": [ "strokeMaterial#14", "colorMaterial#14", "motionBlurFilter#8", "strokeMaterial#13", "colorMaterial#13", "visibilityCurve#8" ],
+   "nodeId": "hiddenFolder#8"
+  },
+  {
+   "children": [ "hiddenFolder#8" ],
+   "nodeId": "editableShape#6"
+  },
+  {
+   "children": [ "hiddenFolder#4" ],
+   "nodeId": "editableShape#2"
+  },
+  {
+   "children": [ "hiddenFolder#9" ],
+   "nodeId": "editableShape#7"
+  },
+  {
+   "children": [ "keyframe#28", "keyframe#27" ],
+   "nodeId": "visibilityCurve#14"
+  },
+  {
+   "children": [ "strokeMaterial#12", "colorMaterial#12", "motionBlurFilter#7", "strokeMaterial#11", "colorMaterial#11", "visibilityCurve#7" ],
+   "nodeId": "hiddenFolder#7"
+  },
+  {
+   "children": [ "strokeMaterial#8", "colorMaterial#8", "motionBlurFilter#5", "strokeMaterial#7", "colorMaterial#7", "visibilityCurve#5" ],
+   "nodeId": "hiddenFolder#5"
+  },
+  {
+   "children": [ "hiddenFolder#13" ],
+   "nodeId": "editableShape#11"
+  },
+  {
+   "children": [ "hiddenFolder#11" ],
+   "nodeId": "editableShape#9"
+  },
+  {
+   "children": [ "hiddenFolder#12" ],
+   "nodeId": "editableShape#10"
+  },
+  {
+   "children": [ "strokeMaterial#20", "colorMaterial#20", "motionBlurFilter#11", "strokeMaterial#19", "colorMaterial#19", "visibilityCurve#11" ],
+   "nodeId": "hiddenFolder#11"
+  },
+  {
+   "children": [ "strokeMaterial#22", "colorMaterial#22", "motionBlurFilter#12", "strokeMaterial#21", "colorMaterial#21", "visibilityCurve#12" ],
+   "nodeId": "hiddenFolder#12"
+  },
+  {
+   "children": [ "keyframe#32", "keyframe#31" ],
+   "nodeId": "visibilityCurve#16"
+  },
+  {
+   "children": [ "keyframe#34", "keyframe#33" ],
+   "nodeId": "visibilityCurve#17"
+  },
+  {
+   "children": [ "keyframe#30", "keyframe#29" ],
+   "nodeId": "visibilityCurve#15"
+  },
+  {
+   "children": [ "strokeMaterial#24", "colorMaterial#24", "motionBlurFilter#13", "strokeMaterial#23", "colorMaterial#23", "visibilityCurve#13" ],
+   "nodeId": "hiddenFolder#13"
+  },
+  {
+   "children": [ "hiddenFolder#14" ],
+   "nodeId": "editableShape#12"
+  },
+  {
+   "children": [ "hiddenFolder#15" ],
+   "nodeId": "editableShape#13"
+  },
+  {
+   "children": [ "strokeMaterial#26", "colorMaterial#26", "motionBlurFilter#14", "strokeMaterial#25", "colorMaterial#25", "visibilityCurve#14" ],
+   "nodeId": "hiddenFolder#14"
+  },
+  {
+   "children": [ "strokeMaterial#28", "colorMaterial#28", "motionBlurFilter#15", "strokeMaterial#27", "colorMaterial#27", "visibilityCurve#15" ],
+   "nodeId": "hiddenFolder#15"
+  },
+  {
+   "children": [ "hiddenFolder#16" ],
+   "nodeId": "editableShape#14"
+  },
+  {
+   "children": [ "hiddenFolder#17" ],
+   "nodeId": "editableShape#15"
+  },
+  {
+   "children": [ "strokeMaterial#30", "colorMaterial#30", "motionBlurFilter#16", "strokeMaterial#29", "colorMaterial#29", "visibilityCurve#16" ],
+   "nodeId": "hiddenFolder#16"
+  },
+  {
+   "children": [ "strokeMaterial#32", "colorMaterial#32", "motionBlurFilter#17", "strokeMaterial#31", "colorMaterial#31", "visibilityCurve#17" ],
+   "nodeId": "hiddenFolder#17"
+  },
+  {
+   "children": [ "hiddenFolder#18" ],
+   "nodeId": "editableShape#16"
+  },
+  {
+   "children": [ "hiddenFolder#19" ],
+   "nodeId": "editableShape#17"
+  },
+  {
+   "children": [ "hiddenFolder#20" ],
+   "nodeId": "editableShape#18"
+  },
+  {
+   "children": [ "strokeMaterial#34", "colorMaterial#34", "motionBlurFilter#18", "strokeMaterial#33", "colorMaterial#33", "visibilityCurve#18" ],
+   "nodeId": "hiddenFolder#18"
+  },
+  {
+   "children": [ "strokeMaterial#36", "colorMaterial#36", "motionBlurFilter#19", "strokeMaterial#35", "colorMaterial#35", "visibilityCurve#19" ],
+   "nodeId": "hiddenFolder#19"
+  },
+  {
+   "children": [ "hiddenFolder#21" ],
+   "nodeId": "editableShape#19"
+  },
+  {
+   "children": [ "hiddenFolder#22" ],
+   "nodeId": "editableShape#20"
+  },
+  {
+   "children": [ "hiddenFolder#23" ],
+   "nodeId": "editableShape#21"
+  },
+  {
+   "children": [ "hiddenFolder#24" ],
+   "nodeId": "editableShape#22"
+  },
+  {
+   "children": [ "strokeMaterial#38", "colorMaterial#38", "motionBlurFilter#20", "strokeMaterial#37", "colorMaterial#37", "visibilityCurve#20" ],
+   "nodeId": "hiddenFolder#20"
+  },
+  {
+   "children": [ "keyframe#52", "keyframe#51" ],
+   "nodeId": "visibilityCurve#26"
+  },
+  {
+   "children": [ "keyframe#48", "keyframe#47" ],
+   "nodeId": "visibilityCurve#24"
+  },
+  {
+   "children": [ "keyframe#42", "keyframe#41" ],
+   "nodeId": "visibilityCurve#21"
+  },
+  {
+   "children": [ "keyframe#46", "keyframe#45" ],
+   "nodeId": "visibilityCurve#23"
+  },
+  {
+   "children": [ "keyframe#44", "keyframe#43" ],
+   "nodeId": "visibilityCurve#22"
+  },
+  {
+   "children": [ "keyframe#50", "keyframe#49" ],
+   "nodeId": "visibilityCurve#25"
+  },
+  {
+   "children": [ "strokeMaterial#40", "colorMaterial#40", "motionBlurFilter#21", "strokeMaterial#39", "colorMaterial#39", "visibilityCurve#21" ],
+   "nodeId": "hiddenFolder#21"
+  },
+  {
+   "children": [ "strokeMaterial#42", "colorMaterial#42", "motionBlurFilter#22", "strokeMaterial#41", "colorMaterial#41", "visibilityCurve#22" ],
+   "nodeId": "hiddenFolder#22"
+  },
+  {
+   "children": [ "strokeMaterial#44", "colorMaterial#44", "motionBlurFilter#23", "strokeMaterial#43", "colorMaterial#43", "visibilityCurve#23" ],
+   "nodeId": "hiddenFolder#23"
+  },
+  {
+   "children": [ "strokeMaterial#46", "colorMaterial#46", "motionBlurFilter#24", "strokeMaterial#45", "colorMaterial#45", "visibilityCurve#24" ],
+   "nodeId": "hiddenFolder#24"
+  },
+  {
+   "children": [ "hiddenFolder#25" ],
+   "nodeId": "editableShape#23"
+  },
+  {
+   "children": [ "hiddenFolder#26" ],
+   "nodeId": "editableShape#24"
+  },
+  {
+   "children": [ "hiddenFolder#27" ],
+   "nodeId": "editableShape#25"
+  },
+  {
+   "children": [ "strokeMaterial#48", "colorMaterial#48", "motionBlurFilter#25", "strokeMaterial#47", "colorMaterial#47", "visibilityCurve#25" ],
+   "nodeId": "hiddenFolder#25"
+  },
+  {
+   "children": [ "strokeMaterial#50", "colorMaterial#50", "motionBlurFilter#26", "strokeMaterial#49", "colorMaterial#49", "visibilityCurve#26" ],
+   "nodeId": "hiddenFolder#26"
+  },
+  {
+   "children": [ "keyframe#54", "keyframe#53" ],
+   "nodeId": "visibilityCurve#27"
+  },
+  {
+   "children": [ "strokeMaterial#52", "colorMaterial#52", "motionBlurFilter#27", "strokeMaterial#51", "colorMaterial#51", "visibilityCurve#27" ],
+   "nodeId": "hiddenFolder#27"
+  }
+ ],
+ "nodes": [
+  {
+   "attributes": {
+    "niceName": { "value": "Render Manager", "varType": "string" },
+    "uuid": { "value": "fc9f7dff-80f4-419f-9ad9-162419be77b1", "varType": "string" }
+   },
+   "nodeId": "dynamicIndexManager#1",
+   "nodeType": "dynamicIndexManager"
+  },
+  { "nodeId": "renderQueue#1", "nodeType": "renderQueue" },
+  { "nodeId": "paletteContainer#1", "nodeType": "paletteContainer" },
+  {
+   "attributes": {
+    "niceName": { "value": "Default Scene Palette", "varType": "string" },
+    "uuid": { "value": "c3797247-7764-4027-8875-86e4c7506f93", "varType": "string" }
+   },
+   "nodeId": "colorArray#1",
+   "nodeType": "colorArray"
+  },
+  {
+   "attributes": {
+    "uuid": { "value": "bf1cde70-5b18-4449-b853-5b4ebc8c1d28", "varType": "string" }
+   },
+   "nodeId": "asset#1",
+   "nodeType": "asset"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 12, "varType": "int" },
+    "niceName": { "value": "handwritten", "varType": "string" },
+    "uuid": { "value": "8d561531-1d1e-4b1a-bf48-792c51841c83", "varType": "string" }
+   },
+   "nodeId": "asset#2",
+   "nodeType": "asset"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 16, "varType": "int" },
+    "niceName": { "value": "layer2", "varType": "string" },
+    "scale": {
+     "aspectRatio": 1.0,
+     "value": { "x": 1.9, "y": 1.9 },
+     "varType": "double2"
+    },
+    "uuid": { "value": "e063f5d9-8316-4f84-aa98-20418f4a70ee", "varType": "string" }
+   },
+   "nodeId": "group#2",
+   "nodeType": "group"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 16, "varType": "int" },
+    "niceName": { "value": "svg1", "varType": "string" },
+    "uuid": { "value": "2bdb23c9-3d8b-4714-88b9-93a600f1e428", "varType": "string" }
+   },
+   "nodeId": "group#1",
+   "nodeType": "group"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "a0d186a9-cee2-458c-9f0e-20b9a3960502", "varType": "string" }
+   },
+   "nodeId": "keyframe#1",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "f0e952ce-8864-434d-9a88-423eb561fcb5", "varType": "string" }
+   },
+   "nodeId": "keyframe#2",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "f142bb4f-0e12-497d-a0d7-2eb1767c864d", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#1",
+   "nodeType": "colorMaterial"
+  },
+  { "nodeId": "visibilityCurve#11", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#12", "nodeType": "visibilityCurve" },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -307.6764831542969, "y": 15.200567245483398 },
+           { "x": -297.4811706542969, "y": 20.9770565032959 },
+           { "x": -307.6764831542969, "y": 15.200567245483398 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -299.1881103515625, "y": 39.15011978149414 },
+           { "x": -316.8115234375, "y": 23.54255485534668 },
+           { "x": -310.85272216796875, "y": 28.745880126953125 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -321.9048156738281, "y": 16.444438934326172 },
+           { "x": -329.5434265136719, "y": -1.710296630859375 },
+           { "x": -325.0456848144531, "y": 8.979503631591797 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -336.96746826171875, "y": -13.475845336914063 },
+           { "x": -327.2189636230469, "y": -31.766193389892578 },
+           { "x": -331.03656005859375, "y": -25.25849151611328 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -314.39990234375, "y": -30.61001968383789 },
+           { "x": -296.72369384765625, "y": -27.200130462646484 },
+           { "x": -307.32781982421875, "y": -28.71651840209961 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -285.94342041015625, "y": -23.108272552490234 },
+           { "x": -275.2513122558594, "y": -18.688243865966797 },
+           { "x": -275.2513122558594, "y": -18.688243865966797 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path2", "varType": "string" },
+    "uuid": { "value": "dfddf7f9-3b35-40fe-995a-8a5c7cb2109e", "varType": "string" }
+   },
+   "nodeId": "editableShape#1",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 3, "varType": "int" },
+    "endFrame": { "value": 90, "varType": "int" },
+    "fps": { "value": 30.0, "varType": "double" },
+    "niceName": { "value": "Composition 1", "varType": "string" },
+    "playbackEnd": { "value": 34, "varType": "int" },
+    "resolution": {
+     "value": { "x": 1280, "y": 150 },
+     "varType": "int2"
+    },
+    "uuid": { "value": "8907ea2d-666f-4dbe-b5d8-9271882d3c34", "varType": "string" }
+   },
+   "nodeId": "compNode#1",
+   "nodeType": "compNode"
+  },
+  { "nodeId": "visibilityCurve#13", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#8", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#4", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#5", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#6", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#7", "nodeType": "visibilityCurve" },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "b5bb4b87-653b-4d24-9a4e-a2952cf87a99", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#1",
+   "nodeType": "hiddenFolder"
+  },
+  { "nodeId": "visibilityCurve#3", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#2", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#1", "nodeType": "visibilityCurve" },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 2", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "20419be6-33a1-44af-8a91-81446fceeb37", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#2",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "ef758069-10f4-496b-9705-cf441d10316b", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#3",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "8fde9822-51c9-44e8-b948-d3736bd86915", "varType": "string" }
+   },
+   "nodeId": "keyframe#5",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "1ae382ab-9481-451a-bedf-1ae6de4c5df0", "varType": "string" }
+   },
+   "nodeId": "keyframe#6",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 3", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "97486bb5-4d4d-4653-8ab8-70ea7b499ead", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#3",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 3", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "a0c7cc0d-6817-4c1e-b028-c59284dcb3e0", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#3",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 3", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "74f1a916-aaef-405d-85b4-150c9c25e9d2", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#3",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 4", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "7643d8ce-3a73-4e32-92bf-86d95a1c27f8", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#4",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -138.22879028320313, "y": 20.38762664794922 },
+           { "x": -139.16444396972656, "y": 7.001838684082031 },
+           { "x": -138.22879028320313, "y": 20.38762664794922 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -140.25343322753906, "y": -7.465145111083984 },
+           { "x": -135.7882080078125, "y": -20.07141876220703 },
+           { "x": -135.7882080078125, "y": -20.07141876220703 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path9", "varType": "string" },
+    "uuid": { "value": "610a60c7-4b89-4be2-a0ce-176c8b0c0f28", "varType": "string" }
+   },
+   "nodeId": "editableShape#8",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "26e4526a-acef-4849-879c-202a3917cefe", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#10",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "fda86ff1-1980-46b6-8850-762aa264131e", "varType": "string" }
+   },
+   "nodeId": "keyframe#19",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "110a72cf-c5d1-4bfb-972e-6cdd929e8d17", "varType": "string" }
+   },
+   "nodeId": "keyframe#20",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "02c4d549-487d-4d20-a3a6-aee79b92337c", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#2",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 12", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "71087daa-b618-48ef-8109-b89adb164782", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#12",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 12", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "22120be7-3424-4eb9-ab87-4ecdff8ec0bb", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#12",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "5c93ca6f-34a2-4e29-9f05-c075a2deabb1", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#4",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "a5b9e226-bdcf-48ad-8f0c-9d3ced95b43c", "varType": "string" }
+   },
+   "nodeId": "keyframe#7",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "2575a29c-1b92-4a50-aa8a-7e84e34d8d0e", "varType": "string" }
+   },
+   "nodeId": "keyframe#8",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 5", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "0e1de0c5-5f36-4fb1-a119-a2868c63a6e3", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#5",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 5", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "623f2149-d5ad-465a-b743-ea77ffaca3a6", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#5",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 4", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "f6922fdc-0f59-459f-9467-399c51fcd313", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#4",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 6", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "9dbb680d-4b72-4e96-9dfd-54f602740bce", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#6",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -250.49661254882813, "y": 6.555469512939453 },
+           { "x": -233.8929443359375, "y": 8.578147888183594 },
+           { "x": -250.49661254882813, "y": 6.555469512939453 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -216.2870635986328, "y": 10.834882736206055 },
+           { "x": -200.63856506347656, "y": 14.50895881652832 },
+           { "x": -200.63856506347656, "y": 14.50895881652832 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path4", "varType": "string" },
+    "uuid": { "value": "3f7d336a-281f-4359-881a-0ad2b5cdcf33", "varType": "string" }
+   },
+   "nodeId": "editableShape#3",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 15", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "7adb891f-f4ce-431b-8656-6024ad4bb0cf", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#15",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 15", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "80609a5b-74cf-4396-adde-c7f7f2c0ba79", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#15",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 9", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "56b7c607-d3a1-46a9-a1e7-b4ebe08b4d61", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#9",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 16", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "d37d33cb-a0d7-4b50-a9f9-6ad3fdff0e54", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#16",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 16", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "6c951a84-24af-43d6-a365-d2895cc83a37", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#16",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -208.65768432617188, "y": 7.59288215637207 },
+           { "x": -191.26083374023438, "y": 6.256965637207031 },
+           { "x": -208.65768432617188, "y": 7.59288215637207 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -173.0447540283203, "y": 10.764240264892578 },
+           { "x": -157.75367736816406, "y": 14.85476303100586 },
+           { "x": -157.75367736816406, "y": 14.85476303100586 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path6", "varType": "string" },
+    "uuid": { "value": "64b04d01-66bd-4b7d-b77f-ce6a198291d7", "varType": "string" }
+   },
+   "nodeId": "editableShape#5",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 6", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "62f8830a-fc80-411d-92b7-cb0559e8b75c", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#6",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "334df871-216c-4080-91f1-aa463a40161b", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#6",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "f9bb5afe-8631-457c-b4c6-b252c404248c", "varType": "string" }
+   },
+   "nodeId": "keyframe#11",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "53f3929d-4dae-48b3-add6-572fbb9fa26f", "varType": "string" }
+   },
+   "nodeId": "keyframe#12",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 9", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "4ad01fa5-cfd0-4f16-a9e4-850374f07fd6", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#9",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 9", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "574a3c21-d4db-496f-8fb3-cb0997473960", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#9",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "d8820a98-6d60-4367-aa9b-756b862614d8", "varType": "string" }
+   },
+   "nodeId": "keyframe#17",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "a236a10b-322c-4ce2-a16f-f993b6882ff8", "varType": "string" }
+   },
+   "nodeId": "keyframe#18",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "44061a2d-475b-481c-9583-a6a78eb44bc2", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#9",
+   "nodeType": "hiddenFolder"
+  },
+  { "nodeId": "visibilityCurve#9", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#10", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#20", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#18", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#19", "nodeType": "visibilityCurve" },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -233.063720703125, "y": 8.284486770629883 },
+           { "x": -230.99005126953125, "y": 3.5567054748535156 },
+           { "x": -233.063720703125, "y": 8.284486770629883 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -236.69601440429688, "y": -23.835880279541016 },
+           { "x": -226.090576171875, "y": -14.538558959960938 },
+           { "x": -226.090576171875, "y": -14.538558959960938 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path5", "varType": "string" },
+    "uuid": { "value": "66612114-af42-4164-bd31-73ff1827af58", "varType": "string" }
+   },
+   "nodeId": "editableShape#4",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 8", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "023da5dc-847f-4ce7-97e2-6a64e2000a54", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#8",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 8", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "bbad78e3-2927-42d6-b320-8002dc54cade", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#8",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "d5235645-abf3-4444-9d1d-0ab55efa74a8", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#8",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "62ff5aab-3622-4cce-a40c-75cde8cc37ad", "varType": "string" }
+   },
+   "nodeId": "keyframe#15",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "0a01ab8c-1661-4480-bf10-4cc9284e85bf", "varType": "string" }
+   },
+   "nodeId": "keyframe#16",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 13", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "a0e4ae60-1346-45c6-a708-50f8801af39e", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#13",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 13", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "99cec5ff-9520-42e2-bd8a-76b115106669", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#13",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -192.96807861328125, "y": 6.555469512939453 },
+           { "x": -192.0798797607422, "y": -0.5453567504882813 },
+           { "x": -192.96807861328125, "y": 6.555469512939453 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -197.13430786132813, "y": -17.78600311279297 },
+           { "x": -187.38955688476563, "y": -15.921783447265625 },
+           { "x": -187.38955688476563, "y": -15.921783447265625 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -187.04090881347656, "y": -15.921783447265625 },
+           { "x": -187.04090881347656, "y": -15.921783447265625 },
+           { "x": -187.04090881347656, "y": -15.921783447265625 }
+          ],
+          "weightLocked": true
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -185.6462860107422, "y": -14.538570404052734 },
+           { "x": -185.6462860107422, "y": -14.538570404052734 },
+           { "x": -185.6462860107422, "y": -14.538570404052734 }
+          ],
+          "weightLocked": true
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path7", "varType": "string" },
+    "uuid": { "value": "88d7990d-514d-450a-b32e-d927e1cf4ead", "varType": "string" }
+   },
+   "nodeId": "editableShape#6",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -278.04058837890625, "y": 11.742528915405273 },
+           { "x": -278.22247314453125, "y": 3.015453338623047 },
+           { "x": -278.04058837890625, "y": 11.742528915405273 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -284.8894958496094, "y": -4.265739440917969 },
+           { "x": -277.0814208984375, "y": -20.654747009277344 },
+           { "x": -281.87579345703125, "y": -13.155357360839844 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -269.21075439453125, "y": -12.224956512451172 },
+           { "x": -260.93310546875, "y": -4.899448394775391 },
+           { "x": -264.79156494140625, "y": -8.314094543457031 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -259.67352294921875, "y": 8.132078170776367 },
+           { "x": -258.991455078125, "y": -1.2584075927734375 },
+           { "x": -258.8644104003906, "y": 5.90509033203125 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -258.8026123046875, "y": -7.72857666015625 },
+           { "x": -255.37786865234375, "y": -13.155349731445313 },
+           { "x": -255.37786865234375, "y": -13.155349731445313 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -252.58859252929688, "y": -13.155349731445313 },
+           { "x": -252.58859252929688, "y": -13.155349731445313 },
+           { "x": -252.58859252929688, "y": -13.155349731445313 }
+          ],
+          "weightLocked": true
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path3", "varType": "string" },
+    "uuid": { "value": "66a5f06d-31f2-4894-99dd-e58751f221b2", "varType": "string" }
+   },
+   "nodeId": "editableShape#2",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -158.7996063232422, "y": 20.38762664794922 },
+           { "x": -154.66217041015625, "y": 11.263212203979492 },
+           { "x": -158.7996063232422, "y": 20.38762664794922 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -165.0130615234375, "y": -18.443798065185547 },
+           { "x": -154.61572265625, "y": -18.342411041259766 },
+           { "x": -154.61572265625, "y": -18.342411041259766 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path8", "varType": "string" },
+    "uuid": { "value": "bc016754-2597-4c50-b9d0-b619db29c335", "varType": "string" }
+   },
+   "nodeId": "editableShape#7",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 14", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "914e4942-322c-4a52-99aa-8511572309c6", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#14",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 14", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "500673dc-0bfc-48c4-b37e-081c4de6bf27", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#14",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "97dd0eb8-97e7-40d5-8431-bb935b442e7f", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#1",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "43c83b3e-723d-4713-8a8e-335af4f73aa4", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#1",
+   "nodeType": "motionBlurFilter"
+  },
+  { "nodeId": "visibilityCurve#14", "nodeType": "visibilityCurve" },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 4", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "ba9cdff0-c4d7-44b8-ace7-10e1944db5ff", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#4",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "1dea06b1-4e28-47c7-bb37-99502abcb6d5", "varType": "string" }
+   },
+   "nodeId": "keyframe#3",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "f00f33fe-8da9-49b2-b70b-84d61a85c5b1", "varType": "string" }
+   },
+   "nodeId": "keyframe#4",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 2", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "e099a949-b651-4a4e-86a7-0ffe06c07123", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#2",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 2", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "85485765-d558-4857-b3ab-d395a400f0ac", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#2",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 10", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "2d1f6690-8e9a-4ef4-9b29-ea58b4fddc6f", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#10",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 10", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "d4aac073-0e72-4b9c-9587-35eba7c77e65", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#10",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 7", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "92018385-c604-45e0-a275-94e3d27351c1", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#7",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "387169c1-c6b2-498b-94a2-f3c7dd581a2c", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#7",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "ad1b21ab-cabd-4c80-8dd8-d260a81fccf6", "varType": "string" }
+   },
+   "nodeId": "keyframe#13",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "f7b13f20-f22f-4680-9fd3-1da1c2ec50e9", "varType": "string" }
+   },
+   "nodeId": "keyframe#14",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 11", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "3ca39d38-5777-4598-9b34-7c3025d09090", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#11",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 11", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "b24593b5-0b4c-4b71-93d6-a193007af008", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#11",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 6", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "f7033861-db87-4415-a9a6-f1beb708d639", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#6",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "e1c50114-0c21-431e-894c-b92f1b2e210d", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#5",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "86f7630d-5dec-40f0-a3ae-0ae21e4a99cd", "varType": "string" }
+   },
+   "nodeId": "keyframe#9",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "b646d1ab-28af-411e-9b24-72157a0c1900", "varType": "string" }
+   },
+   "nodeId": "keyframe#10",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 7", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "cfdd33fe-ef00-4780-9958-83b1af2e25c8", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#7",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 7", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "95b1799d-7752-44e4-8310-cedb5a13750e", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#7",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 5", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "1736e6e9-1ee3-40a3-adfe-105112d8a849", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#5",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 8", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "76663b2d-8389-4ad7-a522-ae1799768636", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#8",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 17", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "9a69ea03-c434-4714-a62b-593133872b0a", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#17",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 17", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "7778904c-c273-4fb6-a1eb-b2d6b36ee964", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#17",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 10", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "62aa3b1b-543b-4374-8af7-d4119e3cb8e5", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#10",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 18", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "cfd18e52-a867-4f4d-970e-2d97c2a88e5c", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#18",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 18", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "6dc1c681-8f9f-4c6c-99f9-d9f762bb4f28", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#18",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -127.42041015625, "y": 7.938684463500977 },
+           { "x": -114.0625, "y": 11.431392669677734 },
+           { "x": -127.42041015625, "y": 7.938684463500977 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -95.61381530761719, "y": 24.915605545043945 },
+           { "x": -82.25502014160156, "y": 12.413799285888672 },
+           { "x": -85.23283386230469, "y": 15.200569152832031 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -83.91569519042969, "y": 6.139644622802734 },
+           { "x": -92.929443359375, "y": -3.9725112915039063 },
+           { "x": -86.62745666503906, "y": 3.097431182861328 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -103.19923400878906, "y": -6.0254364013671875 },
+           { "x": -98.75924682617188, "y": -16.704273223876953 },
+           { "x": -100.08432006835938, "y": -14.227516174316406 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -70.9111328125, "y": -12.567859649658203 },
+           { "x": -57.6888427734375, "y": -12.8095703125 },
+           { "x": -57.6888427734375, "y": -12.8095703125 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path12", "varType": "string" },
+    "uuid": { "value": "a8aae062-3477-45a9-9f4c-dc1b49b317b5", "varType": "string" }
+   },
+   "nodeId": "editableShape#11",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -172.04859924316406, "y": -5.201866149902344 },
+           { "x": -165.113037109375, "y": -3.3622207641601563 },
+           { "x": -172.04859924316406, "y": -5.201866149902344 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -159.4329376220703, "y": 0.13306808471679688 },
+           { "x": -146.49038696289063, "y": 3.9345359802246094 },
+           { "x": -152.8724365234375, "y": 2.060009002685547 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -139.69427490234375, "y": 7.5402679443359375 },
+           { "x": -133.34762573242188, "y": 6.209657669067383 },
+           { "x": -133.34762573242188, "y": 6.209657669067383 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path10", "varType": "string" },
+    "uuid": { "value": "27d1acd0-919a-4287-a15c-dc8c5f23b835", "varType": "string" }
+   },
+   "nodeId": "editableShape#9",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -116.96067810058594, "y": 14.163156509399414 },
+           { "x": -116.88119506835938, "y": 2.5372047424316406 },
+           { "x": -116.96067810058594, "y": 14.163156509399414 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -122.65577697753906, "y": -13.687679290771484 },
+           { "x": -114.86874389648438, "y": -22.492053985595703 },
+           { "x": -114.86874389648438, "y": -22.492053985595703 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path11", "varType": "string" },
+    "uuid": { "value": "086e0f65-c0b1-4843-8352-75b38382a559", "varType": "string" }
+   },
+   "nodeId": "editableShape#10",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "ecea70ea-fcf9-45a5-8927-5ff3db08e12f", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#11",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "673bed4c-0956-464e-b561-d1f7b8f71b99", "varType": "string" }
+   },
+   "nodeId": "keyframe#21",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "7d8b9efa-2209-4216-8777-61f2ffef9b96", "varType": "string" }
+   },
+   "nodeId": "keyframe#22",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 19", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "72a18aab-c6da-448b-9bc3-5fa4d8170ea0", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#19",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 19", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "083d4572-d3d9-4623-a9e4-a2f72fdba357", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#19",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 11", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "32a92b82-17aa-4cc4-a88e-f75742e87c71", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#11",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 20", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "4ff8598d-1712-4786-942c-eb0a5e7658e5", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#20",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 20", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "f180db64-011e-49c6-9463-f6c9dfe01747", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#20",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "2e003fcc-008c-413b-a2dd-e0b1264fd772", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#12",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "cfe1c7ae-9923-44cc-b94d-0dd43d7b81e1", "varType": "string" }
+   },
+   "nodeId": "keyframe#23",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "0dae6c31-a791-4df9-a9d2-2f720608eb82", "varType": "string" }
+   },
+   "nodeId": "keyframe#24",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 21", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "e7ea97bf-4ed2-4379-b89b-a306a16a7508", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#21",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 21", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "ba37427a-54d8-43f0-a648-7ad26421a17f", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#21",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 12", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "9f8b5208-2d43-4c93-ba49-d268b4086e3c", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#12",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 22", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "350d76ea-e393-4c17-98d3-008607f1b1cf", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#22",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 22", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "42cc8eb4-1c22-4d7f-8427-b3d44066a252", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#22",
+   "nodeType": "strokeMaterial"
+  },
+  { "nodeId": "visibilityCurve#16", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#17", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#15", "nodeType": "visibilityCurve" },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "cd6054f3-0c72-4834-a059-ea4cb0b1658f", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#13",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": true,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -33.176910400390625, "y": 10.30474853515625 },
+           { "x": -50.617523193359375, "y": 19.750139236450195 },
+           { "x": -39.209991455078125, "y": 13.817352294921875 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -64.9403076171875, "y": 8.042442321777344 },
+           { "x": -68.31912231445313, "y": -8.330387115478516 },
+           { "x": -67.10260009765625, "y": -2.435436248779297 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -67.22592163085938, "y": -21.15890884399414 },
+           { "x": -49.88409423828125, "y": -15.157886505126953 },
+           { "x": -56.294189453125, "y": -16.95919418334961 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": -43.740447998046875, "y": -11.178077697753906 },
+           { "x": -37.449676513671875, "y": 0.11698532104492188 },
+           { "x": -40.6046142578125, "y": -5.547672271728516 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path13", "varType": "string" },
+    "uuid": { "value": "118711e7-04b2-44c9-a74c-f56df29066ff", "varType": "string" }
+   },
+   "nodeId": "editableShape#12",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -38.512664794921875, "y": -23.875274658203125 },
+           { "x": -30.806427001953125, "y": -15.323501586914063 },
+           { "x": -38.512664794921875, "y": -23.875274658203125 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -27.92181396484375, "y": -4.780857086181641 },
+           { "x": -19.2733154296875, "y": 7.778085708618164 },
+           { "x": -21.777099609375, "y": 3.7890396118164063 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -13.68426513671875, "y": 27.087265014648438 },
+           { "x": -12.001983642578125, "y": 6.348865509033203 },
+           { "x": -13.75799560546875, "y": 16.237979888916016 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -8.279449462890625, "y": -6.303424835205078 },
+           { "x": -1.2574462890625, "y": -17.03331756591797 },
+           { "x": -2.949676513671875, "y": -15.575969696044922 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 1.21746826171875, "y": -19.143516540527344 },
+           { "x": 4.372161865234375, "y": -17.996593475341797 },
+           { "x": 4.372161865234375, "y": -17.996593475341797 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path14", "varType": "string" },
+    "uuid": { "value": "426c6ec7-ce91-4a97-a6da-02ddc8f757ff", "varType": "string" }
+   },
+   "nodeId": "editableShape#13",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "162f156a-a6f7-4763-8beb-091317714513", "varType": "string" }
+   },
+   "nodeId": "keyframe#25",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "751e1b12-3662-48db-9e61-b4771c3446c5", "varType": "string" }
+   },
+   "nodeId": "keyframe#26",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 23", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "0c779618-fa3a-44af-8fc9-bdeb2b26df24", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#23",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 23", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "61c356e6-4343-4207-96a5-2c47f29fcc68", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#23",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 13", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "1c2a5e25-fdac-4586-9c58-29424f16c449", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#13",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 24", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "e7d348e7-a8b8-441b-a20c-b3a03ed7687f", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#24",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 24", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "80aa4a11-e5a6-4a55-8151-b0ee0d3b1bab", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#24",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "af51f69e-8abb-4249-9d1f-1df58c3c47c6", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#14",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 26", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "c166a9bc-543f-44b9-85f8-57d4b71c67fa", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#26",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "04d7ae88-9f94-49d7-8622-9a0207657147", "varType": "string" }
+   },
+   "nodeId": "keyframe#27",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "60963ab0-3ffc-40d9-9a21-3a0fc8bd70cd", "varType": "string" }
+   },
+   "nodeId": "keyframe#28",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 25", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "830cc415-78cd-4179-a619-5f950e9859ca", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#25",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 25", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "73584641-4471-4883-8042-69aff617bc9c", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#25",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 14", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "5a25ff53-1be0-4dc9-bf0d-ce5240e6e38d", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#14",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 26", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "4ca6eb0e-b02e-4e27-a550-4ac4c287094c", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#26",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "7db03b5e-1ef4-4208-aadb-22bb84128d24", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#15",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "66d282b0-3fad-4432-be4b-14388fc8a46b", "varType": "string" }
+   },
+   "nodeId": "keyframe#29",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "e366bd05-e82f-4383-bb5a-bd6bda62ea3e", "varType": "string" }
+   },
+   "nodeId": "keyframe#30",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 27", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "1df0d044-51fd-4729-96db-0cb1a14bac2f", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#27",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 27", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "66350a14-8d11-48c5-88ed-64f7ce809bb7", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#27",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 15", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "6370367d-cff7-4d38-90c5-836f4de5c73a", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#15",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 28", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "50a6701e-d5c1-4eef-993b-ca431e9c8886", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#28",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 28", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "8cdfd274-6fde-49b1-87c9-b426e85a139b", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#28",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -28.575927734375, "y": -9.697315216064453 },
+           { "x": -17.531494140625, "y": -10.534721374511719 },
+           { "x": -28.575927734375, "y": -9.697315216064453 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": -9.4403076171875, "y": -8.246341705322266 },
+           { "x": 1.582977294921875, "y": -9.005722045898438 },
+           { "x": 1.582977294921875, "y": -9.005722045898438 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path15", "varType": "string" },
+    "uuid": { "value": "bde611f3-82d0-4736-9868-c9520d9937d2", "varType": "string" }
+   },
+   "nodeId": "editableShape#14",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 1.23431396484375, "y": 6.901273727416992 },
+           { "x": 18.853179931640625, "y": 7.765871047973633 },
+           { "x": 1.23431396484375, "y": 6.901273727416992 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 35.302276611328125, "y": 13.031454086303711 },
+           { "x": 53.184295654296875, "y": 13.471546173095703 },
+           { "x": 53.184295654296875, "y": 13.471546173095703 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path16", "varType": "string" },
+    "uuid": { "value": "3bf111a7-46d3-493a-89c4-2bc0b1f33874", "varType": "string" }
+   },
+   "nodeId": "editableShape#15",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "18ec6de0-84dc-48ec-a75d-edc99ba3f8a9", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#16",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "bd81b3f7-c86d-4e77-a213-8f81e7f40345", "varType": "string" }
+   },
+   "nodeId": "keyframe#31",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "bfbba9c5-ded1-4085-b73a-90940bb17a98", "varType": "string" }
+   },
+   "nodeId": "keyframe#32",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 29", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "c8dc0097-535c-47ef-b951-fced1419217d", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#29",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 29", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "cff1c4ea-97c5-4ff0-a05f-77dbf651327c", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#29",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 16", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "588c5fbf-cf06-40a4-98d3-87a4f3a62bcb", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#16",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 30", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "f12adc7d-b204-4306-8457-9686cacf3a62", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#30",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 30", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "df9ad50e-2427-422d-a3a2-1b5779114ca9", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#30",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "76cffe8e-3ddc-46e9-b4c8-5cba996a62e1", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#17",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "a667c2a5-6106-4db7-82d7-0161f92c6742", "varType": "string" }
+   },
+   "nodeId": "keyframe#33",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "5edcbf76-37fe-41de-acac-0be44d78ec10", "varType": "string" }
+   },
+   "nodeId": "keyframe#34",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 31", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "36733fa9-a6ae-4d0e-bff1-66913c859788", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#31",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 31", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "99b4b85c-5a8e-4aff-8c4b-c08c21fbc015", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#31",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 17", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "363a0ad7-0d59-4b39-8a33-fcf7867f8551", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#17",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 32", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "b10cd3ae-30c1-4f02-b146-f30dfe0f2359", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#32",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 17.6212158203125, "y": 8.976095199584961 },
+           { "x": 17.2784423828125, "y": 5.218170166015625 },
+           { "x": 17.6212158203125, "y": 8.976095199584961 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 17.792633056640625, "y": -25.82122039794922 },
+           { "x": 25.29156494140625, "y": -14.192768096923828 },
+           { "x": 25.29156494140625, "y": -14.192768096923828 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path17", "varType": "string" },
+    "uuid": { "value": "705af723-d20b-4907-87ae-e4d50b9f5dec", "varType": "string" }
+   },
+   "nodeId": "editableShape#16",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 108.96957397460938, "y": 32.49076461791992 },
+           { "x": 93.37881469726563, "y": 34.16600799560547 },
+           { "x": 108.96957397460938, "y": 32.49076461791992 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 77.70828247070313, "y": 27.3649959564209 },
+           { "x": 63.805511474609375, "y": 6.436052322387695 },
+           { "x": 68.52532958984375, "y": 15.546371459960938 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 73.96133422851563, "y": -0.7285842895507813 },
+           { "x": 92.49404907226563, "y": -5.1271209716796875 },
+           { "x": 81.77310180664063, "y": -2.4354209899902344 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 103.49533081054688, "y": -8.033496856689453 },
+           { "x": 113.66357421875, "y": -23.50623321533203 },
+           { "x": 110.01385498046875, "y": -17.304973602294922 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 105.9652099609375, "y": -28.583614349365234 },
+           { "x": 96.1361083984375, "y": -32.5705451965332 },
+           { "x": 101.29727172851563, "y": -29.753894805908203 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 80.38223266601563, "y": -36.177364349365234 },
+           { "x": 84.21337890625, "y": -25.950061798095703 },
+           { "x": 84.21337890625, "y": -25.950061798095703 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path18", "varType": "string" },
+    "uuid": { "value": "f5cba074-3bb3-44e2-b07f-1bee779e05a4", "varType": "string" }
+   },
+   "nodeId": "editableShape#17",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 117.33737182617188, "y": 15.546371459960938 },
+           { "x": 106.01596069335938, "y": -1.1236038208007813 },
+           { "x": 117.33737182617188, "y": 15.546371459960938 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 129.73162841796875, "y": -9.556411743164063 },
+           { "x": 145.25216674804688, "y": 8.405593872070313 },
+           { "x": 139.30279541015625, "y": 2.40582275390625 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 146.32763671875, "y": 28.54680633544922 },
+           { "x": 139.54348754882813, "y": 0.1148681640625 },
+           { "x": 142.09207153320313, "y": 9.321903228759766 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 127.48965454101563, "y": -15.939498901367188 },
+           { "x": 140.6976318359375, "y": -21.800437927246094 },
+           { "x": 140.6976318359375, "y": -21.800437927246094 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path19", "varType": "string" },
+    "uuid": { "value": "38469009-775d-49c7-a74c-ffb6ad7faa65", "varType": "string" }
+   },
+   "nodeId": "editableShape#18",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 32", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "e01ba4ee-b055-4d2d-9f5d-1f1edc85c20a", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#32",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "aa8b92a2-087f-42e3-8dc0-cbf704dabb68", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#18",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "6e5449f0-6dc5-46ad-8265-116de7d7342c", "varType": "string" }
+   },
+   "nodeId": "keyframe#35",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "091b6a58-8066-4f6f-9e49-f860d2faced6", "varType": "string" }
+   },
+   "nodeId": "keyframe#36",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 33", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "bf6e9269-7cc0-4002-b80b-73ace6dd0267", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#33",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 33", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "572f3d05-688f-4f58-a56f-149d769d917e", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#33",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 18", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "2f0ed5bc-0e0a-472d-9b1e-714673eb9bea", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#18",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 34", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "de1cbb2f-0256-4c83-bca9-cd16fb417441", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#34",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 34", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "572e2aa8-b1d9-4c47-9164-45f7e6db110c", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#34",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 36", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "f6e6829f-45e8-4493-8864-3c52c03629ef", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#36",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "ac08b708-3da2-41a5-9baa-45171cb7f234", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#19",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "0364c594-7deb-4059-a392-384647d50451", "varType": "string" }
+   },
+   "nodeId": "keyframe#37",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "448ccc76-9c20-4560-8591-0d9a0cfa5362", "varType": "string" }
+   },
+   "nodeId": "keyframe#38",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 35", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "00b799c6-6333-4006-a10f-c2c93234f9d7", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#35",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 35", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "daafd0a9-06b2-424c-b4d5-bc543bd2b3e8", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#35",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 19", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "a55a67fa-5ffb-4fa0-b45b-ee44722d94c0", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#19",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 36", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "f8882824-48db-4537-8b3b-31411d6ff6fe", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#36",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 167.1954345703125, "y": 16.237979888916016 },
+           { "x": 160.1429443359375, "y": 15.150087356567383 },
+           { "x": 167.1954345703125, "y": 16.237979888916016 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 140.210693359375, "y": -5.765354156494141 },
+           { "x": 170.35870361328125, "y": -1.7743644714355469 },
+           { "x": 151.85415649414063, "y": -4.856056213378906 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 187.1326904296875, "y": -20.380962371826172 },
+           { "x": 159.63385009765625, "y": -24.704692840576172 },
+           { "x": 163.010986328125, "y": -23.52945327758789 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 156.28314208984375, "y": -23.99201202392578 },
+           { "x": 156.73519897460938, "y": -20.417217254638672 },
+           { "x": 156.73519897460938, "y": -20.417217254638672 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path20", "varType": "string" },
+    "uuid": { "value": "90d15c1c-4e32-488a-92ae-09e68d49165e", "varType": "string" }
+   },
+   "nodeId": "editableShape#19",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 325.48291015625, "y": 16.499265670776367 },
+           { "x": 318.430419921875, "y": 15.411375045776367 },
+           { "x": 325.48291015625, "y": 16.499265670776367 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 298.4981689453125, "y": -5.504062652587891 },
+           { "x": 328.64617919921875, "y": -1.5130767822265625 },
+           { "x": 310.14166259765625, "y": -4.594768524169922 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 345.420166015625, "y": -20.119674682617188 },
+           { "x": 317.92132568359375, "y": -24.443401336669922 },
+           { "x": 321.2984619140625, "y": -23.26816177368164 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 314.57061767578125, "y": -23.73072052001953 },
+           { "x": 315.02264404296875, "y": -20.155925750732422 },
+           { "x": 315.02264404296875, "y": -20.155925750732422 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path20-6", "varType": "string" },
+    "uuid": { "value": "1924c4b1-03e7-4bcf-80fd-a27616a57cfb", "varType": "string" }
+   },
+   "nodeId": "editableShape#20",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 175.91192626953125, "y": 6.555469512939453 },
+           { "x": 192.74700927734375, "y": 8.024541854858398 },
+           { "x": 175.91192626953125, "y": 6.555469512939453 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 208.58660888671875, "y": 10.970090866088867 },
+           { "x": 226.5032958984375, "y": 14.796501159667969 },
+           { "x": 225.42181396484375, "y": 14.508962631225586 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 224.64813232421875, "y": 14.912853240966797 },
+           { "x": 225.77069091796875, "y": 14.854766845703125 },
+           { "x": 225.77069091796875, "y": 14.854766845703125 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path21", "varType": "string" },
+    "uuid": { "value": "359e0017-4d8b-4323-806c-b36cc3f73dbd", "varType": "string" }
+   },
+   "nodeId": "editableShape#21",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 189.85821533203125, "y": 7.59288215637207 },
+           { "x": 190.03173828125, "y": 2.8682403564453125 },
+           { "x": 189.85821533203125, "y": 7.59288215637207 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 189.1917724609375, "y": -23.741744995117188 },
+           { "x": 197.5289306640625, "y": -14.538578033447266 },
+           { "x": 197.5289306640625, "y": -14.538578033447266 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path22", "varType": "string" },
+    "uuid": { "value": "22b60225-d5a5-4c89-be6e-d00adce1db2a", "varType": "string" }
+   },
+   "nodeId": "editableShape#22",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "c3d82b6f-9b2d-4e54-930c-fcf5eed8f26f", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#20",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "6e83999d-60ac-48b4-9569-f6d8e2c482fb", "varType": "string" }
+   },
+   "nodeId": "keyframe#39",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "83771906-aec9-41ab-999d-9421e53be23c", "varType": "string" }
+   },
+   "nodeId": "keyframe#40",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 37", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "0296a31c-9f52-46f3-b032-e9a3f0f16bb0", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#37",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 37", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "e7e34c58-3c87-4c9d-98dc-7dfecf0d4fc6", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#37",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 20", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "53502fa9-50d6-4901-b322-46c01ff74f3d", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#20",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 38", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "306a5f27-a520-421a-b5e0-2a26fc044191", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#38",
+   "nodeType": "colorMaterial"
+  },
+  { "nodeId": "visibilityCurve#26", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#24", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#21", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#23", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#22", "nodeType": "visibilityCurve" },
+  { "nodeId": "visibilityCurve#25", "nodeType": "visibilityCurve" },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 38", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "ec61e57e-2dc5-4365-a180-656e58304947", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#38",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "e89be072-4946-4b64-a777-f9892df9a17c", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#21",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "ba44d98b-6cb1-4ff9-aa5f-a58a87b92722", "varType": "string" }
+   },
+   "nodeId": "keyframe#41",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "255e6670-cadb-48d8-bde2-874142fabb1b", "varType": "string" }
+   },
+   "nodeId": "keyframe#42",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 39", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "8318a719-c4eb-4e4f-a6f5-8c2a68517d3b", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#39",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 39", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "93b4db49-0233-46f1-ac54-9a2cdc274185", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#39",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 21", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "ce48fa51-8554-460d-a49b-40d9f6b5cc08", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#21",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 40", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "49100b81-cb0a-4c0b-8f91-18b9d9bbf789", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#40",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 40", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "887ef595-60f0-4bc2-81c8-18e4c55b523e", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#40",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 42", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "8b66d235-a677-4969-acdd-695c0197c9ff", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#42",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "989aebc0-0675-4b0f-8d3f-4bfb08510383", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#22",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "b1c2f5b6-526e-4bc3-8877-9bc68fbcb440", "varType": "string" }
+   },
+   "nodeId": "keyframe#43",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "95925b37-f68f-44df-b94e-310a8c8c47f2", "varType": "string" }
+   },
+   "nodeId": "keyframe#44",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 41", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "d2f7427d-c539-4aa6-9be6-6a21198e4826", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#41",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 41", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "e11230f8-3ef8-49f8-9ea9-6b3550dabd52", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#41",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 22", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "5c952e5d-a556-4187-bc31-cf1e6afa2983", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#22",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 42", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "0a483955-ada8-46bd-bd8b-57529cfda8a7", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#42",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "6e8c5f19-f136-4497-badf-b8c190d5ebb4", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#23",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "cc828365-2174-465a-ad53-a3fd28a01898", "varType": "string" }
+   },
+   "nodeId": "keyframe#45",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "b5fc3390-739f-4129-8928-fb85988b37a2", "varType": "string" }
+   },
+   "nodeId": "keyframe#46",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 43", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "7c4e73ed-3ac6-4d81-96d0-9eafd9a30c1e", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#43",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 43", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "d870801d-61db-4e11-b1ec-bfc38eb597bb", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#43",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 23", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "5bd68295-fb67-44f8-b082-5f1b25486dc4", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#23",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 44", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "bf4ea89b-df34-46db-b33d-1e2b80f2ae4d", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#44",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 44", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "d9bcc764-273f-4f6c-b6d7-661418ec48d4", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#44",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 46", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "34c18190-c302-4215-afd3-cff402c1bf17", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#46",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "0297ee3c-c360-42d3-9d98-e36a8824c08d", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#24",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "04bc8d7a-b5d3-4f04-9af2-961e21c77f36", "varType": "string" }
+   },
+   "nodeId": "keyframe#47",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "4a3e922e-90ca-4f58-a56b-95e45d1e1b64", "varType": "string" }
+   },
+   "nodeId": "keyframe#48",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 45", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "f10f3c38-439e-441b-85a3-7256e0c1ccb7", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#45",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 45", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "c1363e25-5397-434c-b2c0-e7ce4f419c60", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#45",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 24", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "8e943ae8-f3ac-4de0-ad60-21f637c7905e", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#24",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 254.35986328125, "y": 15.200567245483398 },
+           { "x": 243.931884765625, "y": 10.2342529296875 },
+           { "x": 254.35986328125, "y": 15.200567245483398 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 226.046875, "y": 12.82144546508789 },
+           { "x": 215.4586181640625, "y": -5.457244873046875 },
+           { "x": 220.43890380859375, "y": 2.5373992919921875 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 217.8638916015625, "y": -27.080120086669922 },
+           { "x": 239.304931640625, "y": -22.6234130859375 },
+           { "x": 237.79620361328125, "y": -22.653968811035156 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 241.873291015625, "y": -17.513874053955078 },
+           { "x": 242.50531005859375, "y": -15.230182647705078 },
+           { "x": 242.50531005859375, "y": -15.230182647705078 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path23", "varType": "string" },
+    "uuid": { "value": "86fd10bb-d1ac-4fde-8b0b-1b97f01af794", "varType": "string" }
+   },
+   "nodeId": "editableShape#23",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 219.8427734375, "y": -2.781238555908203 },
+           { "x": 228.8011474609375, "y": -0.9721908569335938 },
+           { "x": 219.8427734375, "y": -2.781238555908203 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 234.76971435546875, "y": -0.4042816162109375 },
+           { "x": 243.551513671875, "y": -0.01480865478515625 },
+           { "x": 243.551513671875, "y": -0.01480865478515625 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path24", "varType": "string" },
+    "uuid": { "value": "cb0ee0e4-50e8-4ad8-8250-387eb2297a33", "varType": "string" }
+   },
+   "nodeId": "editableShape#24",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 2, "varType": "int" },
+    "inputPath": {
+     "value": {
+      "contours": [
+       {
+        "closed": false,
+        "points": [
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 256.45184326171875, "y": -21.45465087890625 },
+           { "x": 255.7479248046875, "y": -10.393470764160156 },
+           { "x": 256.45184326171875, "y": -21.45465087890625 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 257.31951904296875, "y": 10.603960037231445 },
+           { "x": 264.70330810546875, "y": 6.379154205322266 },
+           { "x": 261.33319091796875, "y": 13.471546173095703 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": true,
+          "points": [
+           { "x": 270.27349853515625, "y": -9.352386474609375 },
+           { "x": 285.1275634765625, "y": -2.895709991455078 },
+           { "x": 274.93109130859375, "y": -7.2766876220703125 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 291.22943115234375, "y": 7.920310974121094 },
+           { "x": 300.6734619140625, "y": 7.765773773193359 },
+           { "x": 298.29107666015625, "y": 16.929584503173828 }
+          ],
+          "weightLocked": false
+         },
+         {
+          "gradientLocked": false,
+          "points": [
+           { "x": 286.95489501953125, "y": -14.755901336669922 },
+           { "x": 301.08001708984375, "y": -15.921783447265625 },
+           { "x": 301.08001708984375, "y": -15.921783447265625 }
+          ],
+          "weightLocked": false
+         }
+        ]
+       }
+      ],
+      "fillType": 0,
+      "version": 1.0
+     },
+     "varType": "editablePath2"
+    },
+    "niceName": { "value": "path25", "varType": "string" },
+    "uuid": { "value": "07dd3407-d94f-4306-9d4c-735fa1d77869", "varType": "string" }
+   },
+   "nodeId": "editableShape#25",
+   "nodeType": "editableShape"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 46", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "7e00d03c-f36f-421c-bb79-c6741ff5ecd0", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#46",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "76329e04-152a-441d-b6ac-bf1c32c273ef", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#25",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "e0ffc042-04c2-4b09-af8c-536405fe1678", "varType": "string" }
+   },
+   "nodeId": "keyframe#49",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "55991aef-b223-4113-81ca-70f492de7489", "varType": "string" }
+   },
+   "nodeId": "keyframe#50",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 47", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "adfe0fdb-5c2a-4429-b911-5b0936df48c9", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#47",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 47", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "e61a3eb6-b677-464b-a23d-6695d7470814", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#47",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 25", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "bccfb3e9-89d5-4043-96c7-dda484228d9b", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#25",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 48", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "106414b5-faf5-4cf8-a401-693845aae052", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#48",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 48", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "2083f237-5ffb-453c-8fb8-9057cc223c43", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#48",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "4bec68ef-0806-4788-96c5-a8b23e6439b1", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#26",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "8e3c439d-b57c-4e60-947b-936c29966018", "varType": "string" }
+   },
+   "nodeId": "keyframe#51",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "615304e2-fb4a-4729-bbd8-407170124fe4", "varType": "string" }
+   },
+   "nodeId": "keyframe#52",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 49", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "50c85056-606f-46f0-9a96-36f8845350ab", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#49",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 49", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "f3d39023-c751-41a1-9ba1-18065cb54afd", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#49",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 26", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "4ee71a8b-6874-4155-9161-5391986b7a7a", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#26",
+   "nodeType": "motionBlurFilter"
+  },
+  { "nodeId": "visibilityCurve#27", "nodeType": "visibilityCurve" },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 50", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "fa2ee1cf-a280-4268-aaa9-56e0a7ecf210", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#50",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 50", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "7b2bd4b4-b945-47f9-977f-eb51120c7457", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#50",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "niceName": { "value": "subUINodes", "varType": "string" },
+    "uuid": { "value": "1ee468d9-b582-4198-aca4-b46652927d12", "varType": "string" }
+   },
+   "nodeId": "hiddenFolder#27",
+   "nodeType": "hiddenFolder"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": 1.0 },
+     "varType": "keyData"
+    },
+    "uuid": { "value": "b810f752-c130-46d3-9655-fd73e92f29f8", "varType": "string" }
+   },
+   "nodeId": "keyframe#53",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "data": {
+     "value": { "numValue": -1.0 },
+     "varType": "keyData"
+    },
+    "timeOffset": { "value": 250.0, "varType": "double" },
+    "uuid": { "value": "d0a40723-b753-418d-bb3e-fc061d82db25", "varType": "string" }
+   },
+   "nodeId": "keyframe#54",
+   "nodeType": "keyframe"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "niceName": { "value": "Fill 51", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "b65f1c10-f648-4e14-9276-26797cd5997d", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#51",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "niceName": { "value": "Stroke 51", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "262cbfd5-43c1-411a-8db3-50248b9e413f", "varType": "string" }
+   },
+   "nodeId": "strokeMaterial#51",
+   "nodeType": "strokeMaterial"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 14, "varType": "int" },
+    "niceName": { "value": "Motion Blur 27", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "52b52c67-97a5-410a-976d-52c2125527fc", "varType": "string" }
+   },
+   "nodeId": "motionBlurFilter#27",
+   "nodeType": "motionBlurFilter"
+  },
+  {
+   "attributes": {
+    "colorId": { "value": 6, "varType": "int" },
+    "materialColor": {
+     "value": { "a": 0, "b": 0, "g": 0, "r": 0 },
+     "varType": "color"
+    },
+    "niceName": { "value": "Fill 52", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "uuid": { "value": "e2758800-4340-437a-a5f2-44c3af5e442f", "varType": "string" }
+   },
+   "nodeId": "colorMaterial#52",
+   "nodeType": "colorMaterial"
+  },
+  {
+   "attributes": {
+    "capStyle": { "value": 1, "varType": "enum" },
+    "colorId": { "value": 6, "varType": "int" },
+    "gradient": {
+     "list": [
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 0, "g": 0, "r": 0 },
+         "varType": "color"
+        }
+       }
+      },
+      {
+       "compound": {
+        "color": {
+         "value": { "a": 255, "b": 255, "g": 255, "r": 255 },
+         "varType": "color"
+        },
+        "position": { "value": 1.0, "varType": "double" }
+       }
+      }
+     ]
+    },
+    "joinStyle": { "value": 2, "varType": "enum" },
+    "niceName": { "value": "Stroke 52", "varType": "string" },
+    "showInProjectWindow": { "value": false, "varType": "bool" },
+    "strokeColor": {
+     "value": { "a": 255, "b": 138, "g": 183, "r": 249 },
+     "varType": "color"
+    },
+    "uuid": { "value": "63d70034-f852-4e27-9c29-f494498db088", "varType": "string" },
+    "width": { "value": 3.5414350032806396, "varType": "double" }
+   },
+   "nodeId": "strokeMaterial#52",
+   "nodeType": "strokeMaterial"
+  }
+ ],
+ "other": {
+  "viewport": { "backgroundMode": 0, "rulers": {} }
+ },
+ "resourceType": "cavalry.scenefile",
+ "version": "1.0.49"
+}
